@@ -84,7 +84,7 @@ abstract class ImmutableAxis<D> {
 abstract class Axis<D> extends ImmutableAxis<D> implements LayoutView {
   static const primaryMeasureAxisId = 'primaryMeasureAxisId';
   static const secondaryMeasureAxisId = 'secondaryMeasureAxisId';
-  static const _autoViewportDefault = true;
+  static const _autoViewportDefault = false;
 
   final MutableScale<D>? _defaultScale;
 
